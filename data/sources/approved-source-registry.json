@@ -1,0 +1,92 @@
+[
+  {
+    "id": "registry-dawah-general",
+    "category": "dawah-general",
+    "name": "Official package da'wah and general Islamic content source family",
+    "reference": "BUILD_BIBLE.md §10; organizer scientific package source-policy category",
+    "usageRule": "Use only an approved, verified repository and preserve source framing and attribution.",
+    "status": "candidate_for_mvp",
+    "notes": "Registry metadata only. A concrete source, URL, license, and verification record must be selected before ingestion.",
+    "ingested": false
+  },
+  {
+    "id": "registry-quran",
+    "category": "quran",
+    "name": "Approved Qur'an text and translation source family",
+    "reference": "BUILD_BIBLE.md §10; organizer scientific package source-policy category",
+    "usageRule": "Use an approved and verified text source; preserve the distinction between original text and translation.",
+    "status": "approved_reference",
+    "notes": "No Qur'anic text or translation is included or claimed as ingested.",
+    "ingested": false
+  },
+  {
+    "id": "registry-tafsir",
+    "category": "tafsir",
+    "name": "Approved tafsir source family",
+    "reference": "BUILD_BIBLE.md §3 and §10; organizer scientific package source-policy category",
+    "usageRule": "Keep tafsir distinguishable from Qur'anic text and preserve its attribution and framing.",
+    "status": "deferred",
+    "notes": "Tafsir is deferred until source quality and corpus controls are confirmed.",
+    "ingested": false
+  },
+  {
+    "id": "registry-hadith",
+    "category": "hadith",
+    "name": "Authenticated hadith source family",
+    "reference": "BUILD_BIBLE.md §10; organizer scientific package source-policy category",
+    "usageRule": "Attribute hadith only when source and accepted grading metadata are supported by the corpus.",
+    "status": "candidate_for_mvp",
+    "notes": "No hadith text, grading, or source record is included or claimed as ingested.",
+    "ingested": false
+  },
+  {
+    "id": "registry-aqeedah-introduction",
+    "category": "aqeedah-introduction",
+    "name": "Approved aqeedah and introductory source family",
+    "reference": "BUILD_BIBLE.md §10; organizer scientific package source-policy category",
+    "usageRule": "Preserve source framing and avoid presenting disputed matters as unsupported certainty.",
+    "status": "candidate_for_mvp",
+    "notes": "Concrete source selection and verification remain future work.",
+    "ingested": false
+  },
+  {
+    "id": "registry-fiqh",
+    "category": "fiqh",
+    "name": "Recognized fiqh reference source family",
+    "reference": "BUILD_BIBLE.md §10; organizer scientific package source-policy category",
+    "usageRule": "Do not transform general fiqh material into an autonomous personalized fatwa or automatic tarjih.",
+    "status": "candidate_for_mvp",
+    "notes": "No fiqh content or ruling is included or claimed as ingested.",
+    "ingested": false
+  },
+  {
+    "id": "registry-seerah-history",
+    "category": "seerah-history",
+    "name": "Controlled seerah and history source family",
+    "reference": "BUILD_BIBLE.md §3 and §10; organizer scientific package source-policy category",
+    "usageRule": "Add only if time permits and source quality remains controlled.",
+    "status": "deferred",
+    "notes": "No historical content is included or claimed as ingested.",
+    "ingested": false
+  },
+  {
+    "id": "registry-doubts-faq",
+    "category": "doubts-faq",
+    "name": "Approved doubts and frequent-questions source family",
+    "reference": "Organizer scientific package source-policy category",
+    "usageRule": "Preserve source framing and do not convert a reference response into unsupported certainty.",
+    "status": "candidate_for_mvp",
+    "notes": "A concrete approved repository and rights record must be documented before ingestion.",
+    "ingested": false
+  },
+  {
+    "id": "registry-terminology-translation",
+    "category": "terminology-translation",
+    "name": "Approved Islamic terminology and translation source family",
+    "reference": "BUILD_BIBLE.md §10; organizer scientific package source-policy category",
+    "usageRule": "Prefer approved terminology references over naive literal machine translation for sensitive terms.",
+    "status": "candidate_for_mvp",
+    "notes": "No terminology entries or translations are included or claimed as ingested.",
+    "ingested": false
+  }
+]
